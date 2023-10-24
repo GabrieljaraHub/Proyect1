@@ -1,0 +1,203 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:  'Roboto', sans-serif;;
+    
+    
+}
+
+body{
+    background-color: wheat;
+    margin-left: 12rem;
+
+}
+
+.header{
+    background-color: white ;
+    display: flex;
+    font-size: 12.5px;
+    align-items: center;
+    height: 85px;
+    padding: 4px 10%;
+    border:6px solid;
+    border-color: black;
+    margin-left: 17rem;
+
+}
+
+.header.logo{
+    cursor:pointer ;
+}
+.header.logo,img  {
+height: 60px;
+width: 150px;
+margin-left: -7rem;
+}
+
+.header,.logo img:hover{
+    transform: scale(1.2);
+}
+
+.header.nav-links{
+    list-style:none;
+    text-align: center;
+    font-size: 100px;
+    margin-left: 10rem;
+
+}
+
+.header.nav-links,li{
+    display: inline-block;
+    padding: 0 20px;
+
+
+
+}
+.header.nav-links a{
+    
+    color: aliceblue;
+    text-decoration: none;
+    }
+
+
+.portada{
+    width: 950px;
+    height: 500px;
+    margin-left: 10rem;
+    width: 00 auto;
+    margin-top: 1rem;
+}
+
+.container1{
+  text-align: center;
+  background-color:#A9FAFF ;
+  width: 950px;
+  height: 600px;
+  margin-left: 10rem;
+  margin-top:-0rem;
+
+}
+
+
+
+.imagenes{
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+.imagen{
+    width: 280px;
+    margin: 0 16px;
+    height:400px;
+    margin-top: -7rem;
+    
+}
+
+.container2{
+    text-align:left;
+    background-color: white;
+   width: 950px;
+    margin-left: 10rem;
+    height: 500px;
+    font-size: 19px;
+    justify-content: center; 
+}
+
+.h2{
+    text-align: center;
+}
+.p2,.p3,.p4{
+text-align: left;
+margin-left: 2rem;
+}
+
+.p2{
+    text-transform: uppercase;
+}
+
+.container3{
+text-align: center;
+width: 950px;
+margin-left: 10rem;
+font-size: 20px;
+background-color: #A9FAFF;
+height: 500px;
+
+
+}
+
+.enviar{
+    background-color: blue;
+    color: aliceblue;
+    padding: 9px;
+    font-size: 19px;
+    width: 290px;
+    border-radius: 19px;
+    }
+
+input[type="text"] {
+    width: 400px;
+    height: 40px;
+       
+}  
+
+placeholder{
+    color: green;
+} 
+
+input[type="email"]{
+    width: 400px;
+    height: 40px;
+}
+
+input[type="tel"]{
+    width: 400px;
+    height: 40px;
+
+}
+
+textarea{
+    width: 400px;
+}
+
+.enlaces{
+    text-align:left;
+    margin-top: -9rem;
+    margin-left: 30rem;
+}
+
+
+
+
+footer{
+    background-color: #0E7E00;
+    width: 950px;
+    height: 280px;
+    margin-left:10rem ;
+    margin-top: -1rem;
+
+}
+.pie{
+    margin-left: 5rem;
+    margin-top: 7rem;
+    width: 300px;
+    height: 100px;
+}
+.s{
+    margin-left: 15rem;
+    margin-top: -6rem;
+    font-size: 25px;
+    color: white;
+}
+
+.e{
+    font-size: 25px;
+    color: white;
+}
+a{
+    
+    text-decoration: none;
+}
+

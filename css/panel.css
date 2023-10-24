@@ -1,0 +1,168 @@
+body,html{
+    background-image:url(../img/medidas.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  position: relative;
+}
+
+
+
+form{
+    width: 580px;
+    height: 40px;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    transform: translate(-30%,-40%);
+    border: 2px black inset;
+}
+
+
+
+.inicio{
+    width: 150px;
+    height: 40px;
+    background-color: #1D9DE2;
+    color: white;
+    font-size: 19px;
+    margin-left: 1rem;
+    margin-top: -5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Days One', sans-serif;
+    margin-top: -2rem;
+
+}
+.inicio:hover{
+    background-color: blue;
+    transition: 1s;
+}
+
+.registrar{
+    width: 150px;
+    height: 40px;
+    background-color: #41E21D;
+    color: white;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Days One', sans-serif;
+}
+
+.registrar:hover{
+    background-color: blue;
+    transition: 1s;
+}
+.cabecera{
+    width: 1000px;
+    height: 100px;
+    background-color: rgb(179, 219, 235);
+    font-size: 1.5rem;
+    text-align: center;
+    color: red;
+   font-family:'Roboto', sans-serif;
+}
+.pe{
+    color: black;
+    font-size: 16.56px;
+    margin-top: -2rem;
+    font-family:'Roboto', sans-serif;
+}
+
+.media{
+    margin-left: -48rem;
+    background-color: black;
+    margin-top: -2rem;
+}
+.icono{
+    margin-left: 50rem;
+    font-size: 40px;
+}
+
+.icon2{
+    background-color: black;
+    margin-top: -1rem;
+}
+
+.logo{
+    width: 200px;
+    height: 400px;
+    position: absolute;
+}
+.btn{
+    background-color: rgb(244, 242, 242);
+    width: 800px;
+    height: 100px;
+    position: absolute;
+    float: left;
+    margin-left: 12.5rem;
+
+}
+ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 2rem;
+}
+section{
+    width: 768px;
+    height: 343px;
+    background-color: rgb(179, 219, 235);
+    position: absolute;
+    margin-left: 12.5rem;
+    margin-top: 6rem;
+    padding-left: 2rem;
+}
+
+.logito .icono{
+    width: 150px;
+    height: 150px;
+    margin-top: 1rem;
+    float: left;
+    margin-left: 1rem;
+    border-radius: 100px;
+}
+.cerrar{
+    width: 150px;
+    height: 30px;
+    background-color: skyblue;
+    color: white;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    border: 1px inset black;
+    text-decoration: none;
+    font-family:'Roboto', sans-serif;
+    border-radius: 15px;
+}
+
+.cerrar:hover{
+    background-color: blue;
+    transition: 1s;
+}
+.edit{
+    text-decoration: none;
+    color: white;
+    font-family:'Roboto', sans-serif;
+    font-size: 20px;
+    color: blue;
+}
+h2{
+    text-transform: uppercase;
+    background-color: white;
+    font-family:'Roboto', sans-serif;
+}
+p{
+    font-size: 20px;
+    font-family:'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}

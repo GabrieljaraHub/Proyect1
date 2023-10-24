@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width ,user-scalable=no,initial-scale=1.0,maximun-scale=1.0,  minium-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Gabarito:wght@900&family=Kanit:wght@500&family=Roboto:ital,wght@0,300;0,400;1,300&family=Signika:wght@300&display=swap" rel="stylesheet">
+    <title>Registrarse</title>
+    <link rel="stylesheet" href="css/registrarse.css">
+</head>
+
+<body>
+    <header>
+        
+    <form action="php/registro.php" method="post">
+        <h1>Crea Nuevo Usuario </h1> <br>
+        <br><input type="text" id="nombre" name="nombre" placeholder="Ingrese Nombre" required> <br>
+        <br><input type="text" id="usuario" name="usuario" placeholder="Ingrese Usuario" required> <br>
+        <br><input type="password" id="contraseña" name="contraseña" placeholder="Ingrese su password" required>
+        <br>
+        <br> <input type="number" name="edad" id="edad" required placeholder="Ingrese su edad"><br>
+        <br> <button class="registrarse"  type="submit">Crear usuario</button> <button class="sesion"><a href="iniciarsesion.html">Iniciar sesión</a></button><a class="regresar" href="index.html">Regresar</a>
+    </form>
+   </header>
+</body>
+
+</html>

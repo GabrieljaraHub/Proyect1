@@ -1,107 +1,184 @@
 <!DOCTYPE html>
 <html lang="es-PE">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="css/aym.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@900&family=Roboto:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
-    <title>proyecto
-    </title>
+    <title>APPMEDIA DIGITAL - Empresa de desarrollo de Apps/Aplicaciones Móviles Perú</title>
+    <meta charset="utf-8">
+    <meta name="description" content="AppMedia es una empresa digital especializada en Sistemas e Innovaciones">
+    <meta name="keywords" content="Redes,Sociales, Android Studio, Bootstrap, Angular, HTML5, CSS3, JavaScript">
+    <meta NAME="Title" CONTENT="APPMEDIA"/>
+    <meta NAME="Author" CONTENT="Jorge Antonio Luque Chambi"/>
+    <meta NAME="Language" CONTENT="Spanish"/>
+    <meta NAME="Revisit" CONTENT="1 day"/>
+    <meta NAME="Distribution" CONTENT="Global"/>
+    <meta NAME="Robots" CONTENT="All"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <header class="header">
-        <div class="logo">
-                <img src="img/Untitled Project (1).jpg" alt="">
-
+    <header>
+        <div class="contenedor">
+            <img src="img/main.png">
+            <input type="checkbox" id="menu-bar">
+            <label class="icon-menu" for="menu-bar"></label>
+            <nav class="menu">
+                <a href="index.html">Inicio</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#marketing">Marketing Digital</a>
+                <a href="#contacto">Contacto</a>
+                <a href="#">Iniciar Sesión</a>
+            </nav>
         </div>
-        <nav>
-            <ul class="nav-link">
-                <li><a href="#">EMPRESA</a></li>
-                <li><a href="#">INGINERIA</a></li>
-                <li><a href="#">ALQUILER</a></li>
-                <li><a href="#">MANTENIMIENTO</a></li>
-                <li><a href="#">CONTACTO</a></li>
-            </ul>
-        </nav>
     </header>
-    
-    <div>
-        <img class="portada" src="img/servicios.jpg" alt="">
-    </div>
-    <section class="container1">
-        <h2>NUESTRO SERVICIO</h2><br>
-        <p class="p1">
-            Tenemos lo que Ud. necesita. Equipos y profesional técnico de primer nivel para tareas que requieran<br>
-            asesoramiento, personal experimentado tanto en el campo operativo como en el técnico.
-        </p>
-        <div class="imagenes">
-            <img class="imagen"  src="img/img1.jpg">
+    <main>
+        <section id="banner">
+            <img src="img/portada.jpg"></img>
+            <div class="contenedor">
+                <h1 class="banner">AppMedia</h1>
+                <p class="banner"> Tenemos el mejor plan de proyectos para tu empresa. </p>
+                <a href="#bienvenida">Leer más</a>
+            </div>
+        </section>
+        <a name="bienvenida"></a>
+        <section id="bienvenidos">
+            <h2> Bienvenidos a App Media Digital </h2>
+            <p> Estamos cada vez mejorando nuestros servicios. </p>
+        </section>
+        <section id="blog">
+            <h3> Lo último de App Media Digital </h3>
+            <div class="contenedor1">
+                <article>
+                    <img src="img/asesoria.jpg">
+                    <h4> Asesoría</h4>
+                </article>
+                <article>
+                    <img src="img/servicios.jpg">
+                    <h4>Servicios</h4>
+                </article>
+                <article>
+                    <img src="img/web.jpg">
+                    <h4>Web</h4>
+                </article>
+            </div>
 
-            <img class="imagen" src="img/img2.jpg">
+        </section>
+        <a name="servicios"></a>
+        <section id="info">
+            <h3>Nuestros Servicios</h3>
+            <p class="banner">
+                Contacto con uno de nuestros asesores
+            </p>
+            <div class="contenedor2">
+                <tr>
 
-            <img class="imagen"  src="img/img3.jpg">
-        </div>
-
-    </section>
-    <section class="container2">
-        <h2 class="h2">NUESTRA CARTA DE PRESENTACION</h2><br>
-        <p class="p3">
-            Tenemos el agrado de dirigimos a usted para presentarle a nuestra empresa; AYM CONSULTORES E
-            EJECUTORESE.I.R.L <br>
-            <br>
-            Nuestra visión es ser una de las mejores compañías peruanas prestadoras de servicios, altamente
-            productiva, innovadora y plenamente humana. Buscando cada día ser mejores, más eficientes, tomando
-            cualquier reto con tenacidad y fortaleza para garantizar su éxito.<br>
-            <br>
-             Gracias a una moderna infraestructura. personal selecto y calificado, con amplia experiencia y
-             especializado, nos permite garantizar un asesoramiento optimizado, así como la seguridad y garantía del
-            trabajo bien hecho.<br>
-            <br>
-            La confianza de nuestros clientes nos ha permitido posicionamos sólidamente en diferentes sectores tales
-            como construcción, industria, hidrocarburos, minería y espectáculos.<br>
-            <br>
-        </p>
-        <p class="p2"><b>Gabriel jara</b> <br>
-            <p class="p4">General Gerente</p>
-        </p>
-    </section>
-    <section class="container3">
-        <form action="#">
-            <br>
-            <h1>CONTACTO</h1>
-            <br>
-            <input type="text" name="nombres" required placeholder="Nombre y Apellido"> <br>
-            <br>
-            <input type="email" name="correo" requiere placeholder="Correo Electronico"> <br>
-            <br>
-            <input type="tel" name="telefono" required placeholder="Celular"> <br>
-            <br>
-             <textarea name="" id="" cols="50" rows="8"></textarea>
-             <br>
-          <br>  <button class="enviar ">Enviar</button> <br>
-            
-        </form>
-    </section>
-    <br>
+                    <div class="info-pet">
+                        <img src="img/desarrollo.jpg">
+                        <h4>Desarrollo Web</h4>
+                    </div>
+                </tr>
+                <tr>
+                    <div class="info-pet">
+                        <img src="img/contenidos.jpg">
+                        <h4>Contenidos</h4>
+                    </div>
+                </tr>
+                <tr>
+                    <div class="info-pet">
+                        <img src="img/hosting.jpg">
+                        <h4>Hosting</h4>
+                    </div>
+                </tr>
+                <tr>
+                   <div class="info-pet">
+                        <img src="img/Marketing.jpg">
+                        <h4>Marketing Digital</h4>
+                    </div>
+                </tr>
+            </div>
+        </section>
+        <a name="marketing"></a>
+        <section id="info">
+            <h3>Marketing Digital</h3>
+            <p class="banner">
+                Contacto con uno de nuestros asesores
+            </p>
+            <div class="contenedor3">
+                <table>
+                    <tr>
+                        <div class="info-pet">
+                            <img src="img/desarrollo.jpg">
+                            <h4>SEO</h4>
+                        </div>
+                    </tr>
+                    <tr>
+                        <div class="info-pet">
+                            <img src="img/contenidos.jpg">
+                            <h4>SEM</h4>
+                        </div>
+                    </tr>
+                    <tr>
+                        <div class="info-pet">
+                            <img src="img/hosting.jpg">
+                            <h4>Redes Sociales</h4>
+                        </div>
+                    </tr>
+                    <tr>
+                       <div class="info-pet">
+                            <img src="img/Marketing.jpg">
+                            <h4>Contenidos Digitales</h4>
+                        </div>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <a name="contacto"></a>
+        <section id="contacto">
+            <h3>Contacto</h3>
+            <p class="banner">
+                Contacto con uno de nuestros asesores
+            </p>
+            <div class="contenedor3">
+                <table>
+                    <tr>
+                        <div class="info-pet">
+                        </div>
+                    </tr>
+                    <tr>
+                        <div class="info-pet">
+                            <form action="registro.php" method="POST">
+				                <label class="contacto">Nombre</label><br>
+				                <input type="text" name="nombre" placeholder="Ingrese sus nombres" class="contacto"><br>
+				                <label class="contacto">Apellido</label><br>
+				                <input type="text" name="apellido" placeholder="Ingrese sus apellidos" class="contacto"><br>
+				                <label class="contacto">Correo</label><br>
+				                <input type="email" name="correo" class="contacto" placeholder="Ingrese su correo"><br>
+				                <label class="contacto">Mensaje</label><br>
+				                <textarea class="contacto" rows="6"></textarea><br>
+				                <input type="submit" name="envia" value="Enviar" class="boton1">
+            				</form>
+                        </div>
+                    </tr>
+                    <tr>
+                        <div class="info-pet">
+                        </div>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </main>
     <footer>
-        
-        <img class="pie" src="img/Untitled Project (1).jpg" alt="">
-        
-        <br>
-            <div class="enlaces">
-                <form>
-            <ul>
-                <li class="e"><b>Enlaces</b></li>   <li class="s"><b>Siguenos en:</b></li>
-
-                <li><a href="">¿Quienes somos?</a></li><br><br>
-                <li><a href="">Ingenieria</a></li><br><br>
-                <li><a href="">Alquileres</a></li><br><br>
-                <li><a href="">Manteniento</a></li><br><br>
-            </ul>
-             </div>
+        <div class="contenedor">
+            <p class="copy">
+                My AppMedia &copy; 2019
+            </p>
+            <div class="sociales">
+                <a class="icon-facebook" href="http://www.facebook.com"></a>
+                <a class="icon-twitter" href="#"></a>
+                <a class="icon-instagram" href="#"></a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>

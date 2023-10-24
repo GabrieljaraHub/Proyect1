@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width ,user-scalable=no,initial-scale=1.0,maximun-scale=1.0,  minium-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Days+One&family=Gabarito:wght@900&family=Kanit:wght@500&family=Londrina+Solid:wght@300;900&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <title>Iniciar sesion</title>
+    <link rel="stylesheet" href="css/iniciarsesion.css">
+</head>
+
+<body>
+    <header>
+    
+        <form action="php/iniciosesion.php" class="iniciarsesion" method="post">
+            <h1>INICIAR SESION</h1> 
+            <br><input type="text" id="usuario" name="usuario" placeholder="Ingrese Usuario" required> <br>
+            <br>
+            <br><input type="password" id="contraseña" name="contraseña" placeholder="Ingrese su password" required>
+            <br>
+             <button type="button" class="enviar"><a href="panel.html">Enviar</a></button>
+             
+            <button class="registrar"><a href="registrase.html">Registrase</a></button> <a class="regresar" href="index.html">Regresar</a>
+            <button class="inicio"><a href="index.html">Inicio</a></button>
+        </form>
+    </header>
+</body>
+
+</html>

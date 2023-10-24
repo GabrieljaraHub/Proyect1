@@ -1,0 +1,108 @@
+
+body,html{
+    background-image:url(../img/portada.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+form{
+   border: 5px solid #E1E1E1;
+    border-radius:6px ;
+    padding: 20px;
+    width: 480px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border-color: blue;
+}
+@media(max-width: 500px){
+    form{
+       width: 90%; 
+    }
+}
+
+
+h1{
+    margin-left: 2rem;
+    color: #6CA9BD;
+    font-family:'Black Ops One',sans-serif ;
+    text-shadow: 3px 3px 0 black;
+    font-size: 40px;
+}
+input {
+    border: 1px solid #6CBDB5;
+     font-family:'Signika',sans-serif ;
+    border-radius: 10px ;
+    text-align: left; 
+    padding-bottom: 0.9rem;
+    margin-left: -2rem;
+    background-color: white;
+    width: 300px;
+    box-shadow: 10px solid;
+}
+
+input:hover{
+    background-color:#6ADE9E;
+    transition: 1s;
+}
+
+
+
+.registrarse{
+    width: 150px;
+    height: 40px;
+   background-color: #41E21D;
+    color: white;
+    font-size: 15px;
+    margin-left: 1rem;
+    border-radius: 7px;
+    font-family:'Black Ops One',sans-serif ;
+    text-shadow: 3px 3px 0 black;
+    cursor: pointer;
+    border-color:#41E21D ;
+}
+
+.registrarse:hover{
+    background-color: blue ;
+    transition: 1s;
+}
+
+.sesion{
+    width: 150px;
+    height: 40px;
+    background-color: #1D9DE2;
+    color: white;
+    font-size: 15px;
+    margin-left: 1rem;
+    border-radius: 7px;
+    font-family:'Black Ops One',sans-serif;
+    text-shadow: 3px 3px 0 black;
+    cursor: pointer;
+    border-color:#1D9DE2 ;
+}
+.sesion:hover{
+    background-color: blue ;
+    transition: 1s;
+}
+
+
+.regresar{
+    text-decoration: none;
+    color: blue;
+    font-family:'Black Ops One',sans-serif;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
